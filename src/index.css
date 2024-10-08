@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn-option:hover {
+  transform: translateX(1.2rem); /* 1.2rem is approximately 5 Tailwind units */
+}
+
+
+/* Custom class for using CSS variable */
+.btn-bg-darkest:hover {
+  background-color: gray;
+}
+
